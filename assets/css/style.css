@@ -77,14 +77,11 @@ h2{
 
 .card-sm,
 .card-md,
+.card-l,
 .card-lg,
 .card-xl{
   width: 310px;
   margin-bottom: 25px;
-}
-
-.card-lg{
-  height: 600px;
 }
 
 .card-sm{
@@ -93,6 +90,14 @@ h2{
 
 .card-md{
   height: 400px;
+}
+
+.card-l{
+  height: 500px;
+}
+
+.card-lg{
+  height: 600px;
 }
 
 .card-xl{
@@ -239,6 +244,12 @@ nav li ul{
 
 /* /ABOUT US*/
 
+/* GET STARTED */
+.started{
+  background-color: var(--viola);
+  color: white;
+}
+/* /GET STARTED */
 
 /*************************************************  
                   Responsive
