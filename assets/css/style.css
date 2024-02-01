@@ -344,6 +344,9 @@ footer .container{
 }
 
 @media screen and (min-width: 1199px){
+  .container{
+    max-width: 1200px;
+  }
   /* menu header */
   .menu .row .list-nav .hamburger{
     display: none;
