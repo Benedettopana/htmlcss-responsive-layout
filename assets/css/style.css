@@ -1,0 +1,148 @@
+:root{
+  --blu: #0084FD;
+  --azzurro: #B5DDFF;
+}
+
+/* Reset */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.debug{
+  border: 1px solid black;
+}
+
+header .menu{
+  height: 80px;
+  background-color: var(--blu);
+  color: white;
+}
+
+body{
+  font-family: 'PT Sans', sans-serif;
+}
+
+img{
+  width: 100%;
+}
+
+/* Utility */
+.d-flex{
+  display: flex;
+}
+
+.between{
+  justify-content: space-between;
+}
+
+.around{
+  justify-content: space-around;
+}
+
+.center{
+  justify-content: center;
+}
+
+.al-center{
+  align-items: center;
+}
+
+.wrap{
+  flex-wrap: wrap;
+}
+/* /Utility */
+
+/* container */
+.container{
+  /* width: 99%; */
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.card-lg,
+.card-sm{
+  width: 310px;
+  margin-bottom: 25px;
+}
+
+.card-lg{
+  height: 600px;
+}
+
+.card-sm{
+  height: 360px;
+}
+
+.row{
+
+}
+
+.col{
+
+}
+
+/* /container */
+
+/* Menu */
+header .menu{
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  /* font-size: ; */
+}
+
+header .container{
+  margin-top: 15px;
+}
+
+header .logo{
+  font-size: 2.5rem;
+}
+
+header .list-nav{
+  font-size: 1.8rem;
+}
+
+.list-nav .menu-desktop{
+  display: none;
+}
+
+nav li{
+  list-style: none;
+}
+
+nav li ul{
+  list-style: none;
+}
+
+/* /Menu */
+
+
+
+/* DEMO */
+
+.demo .container{
+  margin-top: 130px;
+}
+
+.demo .row .card-lg,
+.demo .row .card-sm{
+  background-color: var(--azzurro);
+}
+
+/* /DEMO */
+
+/* STRATEGIC */
+
+/* /STRATEGIC */
+
+
+/*************************************************  
+                  Responsive
+*************************************************/
+
