@@ -161,12 +161,17 @@ header .list-nav{
   display: none;
 }
 
-nav li{
+nav ul{
   list-style: none;
 }
 
-nav li ul{
+nav ul li{
   list-style: none;
+  margin: 0 30px;
+}
+
+nav ul li a{
+  text-decoration: none;
 }
 
 header .menu .col{
@@ -321,7 +326,6 @@ footer .container{
   }
 
   .demo .row .col:first-child{
-    /* width: 60%; */
     width: calc(100%/1.5);
   }
 
@@ -330,14 +334,30 @@ footer .container{
   }
 /* /DEMO */
 
-/* STRATEGIC */
-.strategic .row .col,
-.testimonials .row .col{
+/* STRATEGIC + TESTIMONIALS*/
+  .strategic .row .col,
+  .testimonials .row .col{
   width: 100%;
+  }
+
+/* /STRATEGIC + /TESTIMONIALS*/
 }
-/* /STRATEGIC */
 
-/* TESTIMONIALS */
+@media screen and (min-width: 1199px){
+  /* menu header */
+  .menu .row .list-nav .hamburger{
+    display: none;
+  }
 
-/* /TESTIMONIALS */
+  .menu .row .list-nav .menu-desktop{
+    display: block;
+  }
+
+  .strategic .row .col{
+    width: 50%;
+  }
+
+  .strategic .row .col .developement{
+    margin-top: 100px;
+  }
 }
