@@ -1,6 +1,7 @@
 :root{
   --blu: #0084FD;
   --azzurro: #B5DDFF;
+  --viola: #9792E4;
 }
 
 /* Reset */
@@ -60,6 +61,7 @@ img{
   /* width: 99%; */
   max-width: 1100px;
   margin: 0 auto;
+  margin-top: 35px;
 }
 
 .card-lg,
@@ -77,11 +79,11 @@ img{
 }
 
 .row{
-
+  
 }
 
 .col{
-
+  margin-top: 25px;
 }
 
 /* /container */
@@ -138,7 +140,23 @@ nav li ul{
 /* /DEMO */
 
 /* STRATEGIC */
+.strategic{
+  background-color: var(--viola);
+  color: white;
+}
 
+.strategic .card-lg.planning{
+  background-color: red; /*debug*/
+}
+
+.strategic .card-lg.developement{
+  background-color: white;
+  color: black;
+}
+
+.strategic .developement .arrow{
+  
+}
 /* /STRATEGIC */
 
 
