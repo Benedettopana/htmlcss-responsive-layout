@@ -75,9 +75,10 @@ h2{
   margin-top: 35px;
 }
 
-.card-lg,
 .card-sm,
-.card-md{
+.card-md,
+.card-lg,
+.card-xl{
   width: 310px;
   margin-bottom: 25px;
 }
@@ -93,6 +94,12 @@ h2{
 .card-md{
   height: 400px;
 }
+
+.card-xl{
+  height: 900px;
+}
+
+.card-lg
 
 .row{
   
@@ -209,6 +216,29 @@ nav li ul{
 
 /* TODO: colori speciali per titoli e scritte */
 /* /BENEFITS */
+
+/* ABOUT US*/
+/* FIXME: margini */
+.about{
+
+}
+
+.about .card-lg h2,
+.about .card-lg p{
+  margin-bottom: 70px;
+}
+
+/* FIXME:margin-bottom diverso da p */
+.about h2{
+  color: var(--viola);
+}
+
+.about .card-md{
+  background-color: red; /* debug */
+}
+
+/* /ABOUT US*/
+
 
 /*************************************************  
                   Responsive
