@@ -30,6 +30,17 @@ img{
   width: 100%;
 }
 
+h2{
+  text-align: center;
+  font-size: 2.3rem;
+  padding-top: 80px;
+}
+
+/* TODO: Utilities margin/padding */
+/* MARGIN/PADDING Utilities */
+
+/* /MARGIN/PADDING Utilities */
+
 /* Utility */
 .d-flex{
   display: flex;
@@ -65,7 +76,8 @@ img{
 }
 
 .card-lg,
-.card-sm{
+.card-sm,
+.card-md{
   width: 310px;
   margin-bottom: 25px;
 }
@@ -76,6 +88,10 @@ img{
 
 .card-sm{
   height: 360px;
+}
+
+.card-md{
+  height: 400px;
 }
 
 .row{
@@ -159,6 +175,40 @@ nav li ul{
 }
 /* /STRATEGIC */
 
+/* TESTIMONIALS */
+.testimonials .testo-centrato h2,
+.testimonials .testo-centrato p{
+  text-align: center;
+  padding-top: 0;
+  margin: 0 40px 40px;
+}
+
+.testimonials .card-full{
+  background-color: var(--viola);
+  color: white;
+  width: 300px;
+  height: 500px;
+}
+
+/* TODO: img border-radious */
+.testimonials .card-full img{
+
+}
+
+/* /TESTIMONIALS */
+
+/* BENEFITS */
+.benefits{
+  background-color: var(--viola);
+  color: white;
+}
+
+.card-benefits{
+  background-color: white;
+}
+
+/* TODO: colori speciali per titoli e scritte */
+/* /BENEFITS */
 
 /*************************************************  
                   Responsive
