@@ -2,6 +2,7 @@
   --blu: #0084FD;
   --azzurro: #B5DDFF;
   --viola: #9792E4;
+  --footer-bg: #333;
 }
 
 /* Reset */
@@ -39,6 +40,10 @@ h2{
 /* TODO: Utilities margin/padding */
 /* MARGIN/PADDING Utilities */
 
+.no-border-bottom{
+  margin-bottom: 0;
+}
+
 /* /MARGIN/PADDING Utilities */
 
 /* Utility */
@@ -75,6 +80,7 @@ h2{
   margin-top: 35px;
 }
 
+.card-xs,
 .card-sm,
 .card-md,
 .card-l,
@@ -82,6 +88,10 @@ h2{
 .card-xl{
   width: 310px;
   margin-bottom: 25px;
+}
+
+.card-xs{
+  height: 231px;
 }
 
 .card-sm{
@@ -250,6 +260,23 @@ nav li ul{
   color: white;
 }
 /* /GET STARTED */
+
+/* FOOTER */
+footer{
+  background-color: var(--footer-bg);
+  color: white;
+  text-align: center;
+}
+
+
+footer .txt-center p{
+  margin-bottom: 70px;
+}
+
+footer .container{
+  margin-top: 0;
+}
+/* /FOOTER */
 
 /*************************************************  
                   Responsive
