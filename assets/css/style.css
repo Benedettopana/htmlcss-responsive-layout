@@ -357,6 +357,7 @@ header .menu .col{
   height: 200px;
   border-radius: 50%;
   object-fit: cover;
+  margin-left: 10px;
 }
 
 .foto-description{
@@ -503,6 +504,7 @@ footer .container{
   }
 
   .testimonials .row .row .foto-profile{
+    
     width: 20%;
   }
   .testimonials .row .row .foto-description{
