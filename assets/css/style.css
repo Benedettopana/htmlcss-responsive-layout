@@ -173,6 +173,13 @@ p{
   width: 160px;
 }
 
+.about .btn-benefits{
+
+  font-size: 1rem;
+  padding: 7px 10px;
+  width: 200px;
+}
+
 
 /* /BTN */
 .row{
@@ -198,7 +205,7 @@ header .menu{
 }
 
 header .container{
-  margin-top: 15px;
+  margin-top: 0;
 }
 
 header .logo{
@@ -207,6 +214,10 @@ header .logo{
 
 header .list-nav{
   font-size: 1.8rem;
+}
+
+.list-nav .hamburger{
+  text-align: right;
 }
 
 .list-nav .menu-desktop{
@@ -362,6 +373,21 @@ header .menu .col{
   
 }
 
+.about .foto-profile{
+  margin: 80px auto;
+  text-align: left;
+  position: relative;
+}
+
+.about .foto-profile .quote{
+  color: var(--viola);
+  font-size: 4rem;
+  position: absolute;
+  top: 0;
+  left: 150px;
+}
+
+
 .foto-profile img{
   width: 200px;
   height: 200px;
@@ -429,13 +455,21 @@ header .menu .col{
 }
 
 /* FIXME:margin-bottom diverso da p */
-.about h2{
+.about h2,
+.about h3{
   color: var(--viola);
 }
 
-.about .card-md{
-  background-color: red; /* debug */
+.about h2{
+  font-size: 3.5rem;
 }
+
+.about h3{
+  text-align: left;
+  font-size: 1.8rem;
+  margin-right: 50px;
+}
+
 
 /* /ABOUT US*/
 
@@ -519,6 +553,20 @@ footer .container{
     margin: 10px 5px;
   }
 /* /BENEFITS */
+
+/* ABOUT */
+.about .row{
+  justify-content: space-between;
+}
+.about .col.sini{
+  width: calc(100%/1.8);
+}
+
+.about .col.des{
+  width: calc(100%/3);
+}
+
+/* /ABOUT */
 }
 
 
