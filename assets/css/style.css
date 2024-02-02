@@ -331,11 +331,44 @@ header .menu .col{
 .testimonials .testo-centrato p{
   font-size: 1.2rem;
 }
-.testimonials .card-full{
+/* .testimonials .card-full{
   background-color: var(--viola);
   color: white;
   width: 300px;
   height: 500px;
+} */
+
+/* card testimonial */
+.testimonials .row .row{
+  background-color: var(--viola);
+  border-radius: 50px;
+}
+
+.foto-profile,
+.foto-description{
+  width: 100%;
+  text-align: center;
+  color: white;
+}
+
+.foto-profile{
+  margin: 20px auto;
+  
+}
+
+.foto-profile img{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.foto-description{
+  margin: 0 auto;
+}
+
+.foto-description h4{
+  margin: 10px 0;
 }
 
 /* TODO: img border-radious */
@@ -441,6 +474,14 @@ footer .container{
   .strategic .row .col,
   .testimonials .row .col{
   width: 100%;
+  }
+
+  .testimonials .row .row .foto-profile{
+    width: 20%;
+  }
+  .testimonials .row .row .foto-description{
+    width: 80%;
+    padding: 0 90px;
   }
 
 /* /STRATEGIC + /TESTIMONIALS*/
