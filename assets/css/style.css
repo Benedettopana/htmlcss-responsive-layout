@@ -33,7 +33,7 @@ img{
 }
 
 h2{
-  text-align: center;
+  /* text-align: center; */
   font-size: 2.3rem;
   padding-top: 80px;
 }
@@ -46,6 +46,10 @@ h4{
   /* text-align: center; */
 }
 
+p{
+  line-height: 1.6;
+}
+
 /* TODO: Utilities margin/padding */
 /* MARGIN/PADDING Utilities */
 
@@ -56,6 +60,10 @@ h4{
 
 .margin-sm{
   margin: 0 30px;
+}
+
+.margin-t{
+  margin-top: 40px;
 }
 
 .margin-b{
@@ -109,7 +117,7 @@ h4{
 .card-lg,
 .card-xl{
   width: 100%;
-  height: 100%;
+  /* height: 100%; */
   padding: 20px 20px 0 20px;
   /* margin: 20px 20px 0 20px; */
 }
@@ -240,7 +248,7 @@ header .menu .col{
 .demo .col p{
   color: var(--font-grigio);
   font-weight: 700;
-  line-height: 1.6;
+  
 }
 
 .demo .col .card-sm i{
@@ -261,27 +269,50 @@ header .menu .col{
 .demo .col .card-sm{
   text-align: center;
 }
-
-
 /* /DEMO */
 
 /* STRATEGIC */
 .strategic{
   background-color: var(--viola);
   color: white;
+  padding: 100px 0 200px;
 }
 
 .strategic .card-lg.planning{
-  background-color: red; /*debug*/
+  
+}
+.strategic .card-lg.planning h2{
+  color: white;
+  margin: 70px 0 ;
 }
 
 .strategic .card-lg.developement{
   background-color: white;
+  padding: 10px 0;
+  border-radius: 50px;
   color: black;
 }
 
-.strategic .developement .arrow{
+
+
+.strategic .card-lg.developement h3{
   
+}
+.strategic .card-lg.developement p{
+  text-align: center;
+  margin-top: 25px;
+  font-style: italic;
+}
+
+.strategic .developement .arrow{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  padding-top: 14px;
+  text-align: center;
+  margin: 0 auto 40px;
+  background-color: var(--viola);
+
 }
 /* /STRATEGIC */
 
@@ -383,7 +414,7 @@ footer .container{
     max-width: 720px;
   }
 /* DEMO */
-  .row{
+  .demo .row{
   flex-direction: row;
   }
 
@@ -443,15 +474,34 @@ footer .container{
   .demo .col:nth-child(2) .card-sm{
     aspect-ratio: 1/1;
   }
-  /* .demo .col:nth-child(2) .card-sm{
-  } */
   /* /DEMO */
 
+  /* STRATEGIC */
+  .strategic .row{
+    padding: 0 50px;
+  }
+  .strategic .row .col:last-child{
+    padding: 0 70px;
+  }
+
   .strategic .row .col{
-    width: 50%;
+    width: calc(100%/2);
+    aspect-ratio: 1/1.5;
+    /* padding: 20px 50px; */
+  }
+
+  .strategic .card-lg.planning h2{
+    margin: 5px 0 40px;
+  }
+  .strategic .card-lg.developement img{
+    padding: 10px 50px;
   }
 
   .strategic .row .col .developement{
-    margin-top: 100px;
+    margin-top: 160px;
   }
+  .strategic .developement .arrow{
+    margin: 0 auto 5px;
+  }
+  /* /STRATEGIC */
 }
