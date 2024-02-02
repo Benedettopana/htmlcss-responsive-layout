@@ -156,7 +156,8 @@ p{
 */
 
 /* BTN */
-.btn-app{
+.btn-app,
+.btn-benefits{
   width: 210px;
   height: 40px;
   text-align: center;
@@ -165,6 +166,11 @@ p{
   background-color: var(--blu);
   color: white;
   padding: 5px 20px;
+}
+
+.btn-benefits{
+  background-color: var(--viola);
+  width: 160px;
 }
 
 
@@ -383,9 +389,29 @@ header .menu .col{
   background-color: var(--viola);
   color: white;
 }
-
-.card-benefits{
+.benefits .col{
   background-color: white;
+  border-radius: 20px;
+  padding: 0 10px;
+}
+.card-benefits{
+  color: var(--viola);
+  
+}
+
+.card-benefits p{
+  color: var(--font-grigio);
+}
+
+.card-benefits h2{
+  padding: 10px 0;
+}
+
+.card-benefits h3{
+  text-align: left;
+  font-size: 1.8rem;
+  
+
 }
 
 /* TODO: colori speciali per titoli e scritte */
@@ -485,6 +511,14 @@ footer .container{
   }
 
 /* /STRATEGIC + /TESTIMONIALS*/
+
+/* BENEFITS */
+
+  .benefits .row .col{
+    width: calc(100% / 2.1);
+    margin: 10px 5px;
+  }
+/* /BENEFITS */
 }
 
 
@@ -545,4 +579,11 @@ footer .container{
     margin: 0 auto 5px;
   }
   /* /STRATEGIC */
+
+  /* BENEFITS */
+  .benefits .row .col{
+    width: calc(100% / 3.1);
+    margin: 10px 5px;
+  }
+  /* /BENEFITS */
 }
