@@ -157,7 +157,8 @@ p{
 
 /* BTN */
 .btn-app,
-.btn-benefits{
+.btn-benefits,
+.btn-get{
   width: 210px;
   height: 40px;
   text-align: center;
@@ -178,6 +179,13 @@ p{
   font-size: 1rem;
   padding: 7px 10px;
   width: 200px;
+}
+
+.started .btn-get{
+  font-size: 1.2rem;
+  background-color: white;
+  color: var(--viola);
+  margin: 0 auto 30px;
 }
 
 
@@ -479,6 +487,30 @@ header .menu .col{
   background-color: var(--viola);
   color: white;
 }
+
+.started .card-l h2,
+.started .card-l h4,
+.started .card-l p{
+  text-align: center;
+}
+.started .card-l h4{
+  color: #CBC9F1;
+}
+
+.started .card-l h3{
+  margin-top: 20px;
+  font-size: 2.2rem;
+}
+
+.started .card-l h2{
+  
+  color: #FDC15F;
+}
+
+.started .card-l span{
+  text-decoration: underline;
+}
+
 /* /GET STARTED */
 
 /* FOOTER */
